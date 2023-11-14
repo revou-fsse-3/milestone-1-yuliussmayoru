@@ -1,0 +1,27 @@
+@import "navbar.css";
+@import "main.css";
+@import "header.css";
+@import "services.css";
+@import "portofolioclient.css";
+@import "workprocess.css";
+@import "footer.css";
+@import "tabletview.css";
+@import "desktopview.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Font-montserrat';
+}
+
+@font-face {
+    font-family: 'Font-montserrat';
+    src: 
+        url(https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2) format('woff2');
+  }
+
+.container {
+    display: grid;
+    grid-template-rows: auto;
+  }

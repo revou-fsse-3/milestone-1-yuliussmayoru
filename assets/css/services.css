@@ -1,0 +1,18 @@
+#servicesSection {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto;
+    justify-self: center;
+}
+
+.value-logo {
+    width: 10rem;
+}
+
+.vision-image {
+    width: 100vw;
+}
+
+.mission-image {
+    width: 100vw;
+}

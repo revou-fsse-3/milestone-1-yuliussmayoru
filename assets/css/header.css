@@ -1,0 +1,37 @@
+header {
+    background-image:
+    linear-gradient(to top, rgb(255, 255, 255), rgba(14, 42, 71, 0.73)),
+    url("/assets/img/code-1839406_1920.webp");
+    background-size: fill;
+    background-position: top;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-right: auto;
+    width: 100vw;
+    height: 10rem;
+    background-color: aliceblue;
+    background: rgba(204, 204, 204, 0.5);
+}
+
+.header-logo {
+    width: 8rem;
+}
+
+.home-title h1 {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.home-title h2 {
+    font-size: 1.2rem;
+}
