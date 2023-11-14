@@ -12,7 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   /* font-family: 'Font-montserrat'; */
+   font-family: 'Font-montserrat';
 }
 
 @font-face {
@@ -29,4 +29,10 @@
   .blue-text {
     color: #2DA0CA;
   }
+
+  .border-bottom {
+    text-decoration: underline;
+    text-underline-offset: 0.8rem;
+ }
+ 
 

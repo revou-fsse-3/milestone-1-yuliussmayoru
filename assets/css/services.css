@@ -1,3 +1,6 @@
+/* value */
+
+
 #servicesSection {
     width: 100vw;
     display: grid;
@@ -10,6 +13,10 @@
     justify-content: center;
 }
 
+.value-sec {
+    padding-bottom: 5rem;
+}
+
 .value-logo {    
     width: 18rem;
     padding-top: 5rem;
@@ -18,7 +25,7 @@
 
 .value {
     padding-left: 1rem;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
 
 .value h3 {
@@ -31,18 +38,96 @@
     font-weight: 1000;
 }
 
-.border-bottom {
-   text-decoration: underline;
-   text-underline-offset: 0.8rem;
+.value-explanation {
+    text-align: justify;
 }
 
-.vision-image {
+.lamp-innovation {
+    width: 3rem;
+    height: 3rem;
+}
+
+.agility {
+    width: 3rem;
+    height: 3rem;
+}
+
+.technical {
+    width: 3rem;
+    height: 3rem;
+}
+
+.collaborative {
+    width: 3rem;
+    height: 3rem;
+}
+
+.value-list {
+    display: flex;
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 4rem;
+}
+
+.value-list h4 {
+    padding-bottom: 1rem;
+}
+
+
+/* vision and mission */
+
+.vision-section, .mission-section {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+
+.vision-section h3 {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.vision-section h4 {
+    font-size: 1.8rem;
+    font-weight: 1000;
+    padding-bottom: 4rem;
+}
+
+.vision-image, .mission-image{
     width: 100vw;
+    padding-bottom: 5rem;
 }
 
-.mission-image {
-    width: 100vw;
+.mission-section h3 {
+    font-size: 2rem;
+    font-weight: 100;
 }
 
+.mission-section h4 {
+    font-size: 1.8rem;
+    font-weight: 1000;
+    padding-bottom: 4rem;
+}
 
+.vision-content, .mission-content {
+    text-align: justify;
+}
 
+/* our services */
+
+.our-service-title {
+    font-size: 2rem;
+    padding-left: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 1rem;
+    border-left: solid 2px #2DA0CA;
+
+}
+
+.services-title {
+    padding-top: 2rem;
+}

@@ -28,7 +28,7 @@
   
   .navbar li a:hover,
   .navbar .menu-btn:hover {
-    background-color: #0E2A47;
+    background-color: #2DA0CA;
     color: white;
   }
   
@@ -69,7 +69,7 @@
 
   .navbar .menu-icon:hover {
     color: white;
-    background-color: #0E2A47;
+    background-color: #2DA0CA;
   }
   
   .navbar .menu-icon .navicon {
