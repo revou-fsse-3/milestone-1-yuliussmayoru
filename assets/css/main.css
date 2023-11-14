@@ -25,3 +25,8 @@
     display: grid;
     grid-template-rows: auto;
   }
+
+  .blue-text {
+    color: #2DA0CA;
+  }
+

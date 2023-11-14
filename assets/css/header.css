@@ -16,15 +16,17 @@ header {
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    align-items: center;
     padding-right: auto;
     width: 100vw;
-    height: 10rem;
+    height: 20rem;
     background-color: aliceblue;
-    background: rgba(204, 204, 204, 0.5);
+    background: rgba(204, 204, 204, 0.2);
 }
 
 .header-logo {
     width: 8rem;
+    padding-bottom: 1rem;
 }
 
 .home-title h1 {

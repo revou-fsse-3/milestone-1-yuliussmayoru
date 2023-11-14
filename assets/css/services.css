@@ -2,11 +2,38 @@
     width: 100vw;
     display: grid;
     grid-template-columns: auto;
-    justify-self: center;
+    padding-top: 2rem;
 }
 
-.value-logo {
-    width: 10rem;
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.value-logo {    
+    width: 18rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.value {
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+.value h3 {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.value h4 {
+    font-size: 2rem;
+    font-weight: 1000;
+}
+
+.border-bottom {
+   text-decoration: underline;
+   text-underline-offset: 0.8rem;
 }
 
 .vision-image {
@@ -16,3 +43,6 @@
 .mission-image {
     width: 100vw;
 }
+
+
+
