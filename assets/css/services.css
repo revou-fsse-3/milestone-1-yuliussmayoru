@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: auto;
     padding-top: 2rem;
+    padding-bottom: 5rem;
 }
 
 .logo-container {
@@ -40,6 +41,7 @@
 
 .value-explanation {
     text-align: justify;
+    line-height: 1.6;
 }
 
 .lamp-innovation {
@@ -98,6 +100,8 @@
 
 .vision-image, .mission-image{
     width: 100vw;
+    height: 25rem;
+    object-fit: cover;
     padding-bottom: 5rem;
 }
 
@@ -114,6 +118,7 @@
 
 .vision-content, .mission-content {
     text-align: justify;
+    line-height: 1.6;
 }
 
 /* our services */
@@ -128,6 +133,29 @@
 
 }
 
-.services-title {
-    padding-top: 2rem;
+.service-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.services-content {
+    padding-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.services-content div {
+    display: flex;
+}
+
+.services-content p {
+    padding-top: 1.8rem;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.services-icon {
+    width: 4rem;
+    height: 3rem;
+    padding-right: 1rem;
 }

@@ -1,0 +1,18 @@
+.about-us {
+    padding-top: 5rem;
+}
+
+.about-us h3 {
+    font-size: 2rem;
+    padding-left: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 1rem;
+    border-left: solid 2px #2DA0CA;
+}
+
+.our-team-image {
+    padding-top: 5rem;
+    width: 100vw;
+    padding-bottom: 5rem;
+}

@@ -4,6 +4,7 @@
 @import "services.css";
 @import "portofolioclient.css";
 @import "workprocess.css";
+@import "ourteam.css";
 @import "footer.css";
 @import "tabletview.css";
 @import "desktopview.css";
@@ -28,6 +29,10 @@
 
   .blue-text {
     color: #2DA0CA;
+  }
+
+  .white-text {
+    color: white;
   }
 
   .border-bottom {

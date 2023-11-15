@@ -19,7 +19,7 @@ header {
     align-items: center;
     padding-right: auto;
     width: 100vw;
-    height: 20rem;
+    padding-top: 2rem;
     background-color: aliceblue;
     background: rgba(204, 204, 204, 0.2);
 }

@@ -1,0 +1,153 @@
+@media (min-width: 429px) {
+
+
+    /* header section */
+
+    .header-logo {
+        width: 30vw;
+    }
+
+    .home-title h1 {
+        font-size: 2rem;
+    }
+
+    .home-title h2 {
+        font-size: 2rem;
+        font-weight: 8000;
+    }
+
+    .home-title {
+        padding-top: 5rem;
+    }
+
+    /* services */
+
+    .value-logo {
+        width: 80vw;
+        padding-top: 8rem;
+    }
+
+    .value h3 {
+        font-size: 4rem;
+    }
+
+    .value h4 {
+        font-size: 4rem;
+    }
+
+    .value-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* vision and mission */
+
+    .vision-section , .mission-section {
+        width: 80vw;
+    }
+    
+    .vision-section h3 {
+        font-size: 3rem;
+    }
+
+    .vision-section h4 {
+        font-size: 3rem;
+    }
+
+    .vision-content {
+        font-size: 1.3rem;
+    }
+
+    .mission-section h3 {
+        font-size: 3rem;
+    }
+
+    .mission-section h4 {
+        font-size: 3rem;
+    }
+
+    .vision-image , .mission-image {
+        height: 40rem;
+    }
+
+    /* our services */
+
+    .service-sec {
+        padding-left: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .our-service-title {
+        font-size: 3.5rem;
+    }
+
+
+    /* portofolio & clients */
+
+    .portofolio-lists {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        row-gap: 0.2rem;
+    }
+
+    .port-img {
+        width: 49.5vw;
+    }
+
+    .client-title h3 {
+        font-size: 4rem;
+    }
+
+    .client-lists {
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: auto;
+    }
+
+
+    /* work process */
+
+    .work-process-title h3 {
+        font-size: 4rem;
+    }
+
+    .work-process {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .work-process-content {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .work-process-image {
+        width: 47vw;
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    /* about us */
+
+    .about-us h3 {
+        font-size: 4rem;
+    }
+
+    /* foooter */
+
+    .contact-lists {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    iframe {
+        height: 40rem;
+    }
+
+    .form-input h3 {
+        font-size: 4rem;
+    }
+
+
+
+}
