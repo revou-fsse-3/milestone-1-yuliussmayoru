@@ -45,14 +45,15 @@
     .value-sec {
         display: grid;
         grid-template-columns: repeat(2, auto);
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
         
     }
 
     .logo-container {
         grid-column: 1 / 2;
         grid-row: 1 / 3;
+        padding-right: 4rem;
     }
 
     .value-content {
@@ -79,7 +80,7 @@
 
     .vision-image, .mission-image {
         width: 50vw;
-        height: 41vw;
+        height: 35vw;
         padding-bottom: 0px;
     }
 
@@ -105,8 +106,8 @@
 
     .service-sec {
         grid-template-columns: repeat(3, 1fr);
-        padding-right: 1rem;
-        padding-right: 1rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
     }
 
     .vision-section h3 {
@@ -138,8 +139,8 @@
     .client-sec {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
     }
 
     .client-lists {
@@ -155,10 +156,15 @@
 
     /* work process */
 
+    .work-process {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
     .work-process-image {
         grid-column: 2 / 2;
         grid-row: 1 / 3;
-        width: 35vw;
+        width: 25vw;
     }
 
     .work-process-title {
@@ -187,11 +193,12 @@
 
     iframe {
         width: 50vw;
-        height: 49rem;
+        height: 50rem;
     }
     
     .form-input {
         width: 50vw;
+        height: 50rem;
     }
 
 
