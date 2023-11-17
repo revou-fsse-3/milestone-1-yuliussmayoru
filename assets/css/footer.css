@@ -1,6 +1,6 @@
 .contact-lists {
     padding-top: 2rem;
-    background: linear-gradient(0deg,rgba(45, 160, 202, 0.5), rgba(45, 160, 202, 0.5)), url("/assets/img/work=process\ .png");
+    background: linear-gradient(0deg,rgba(45, 160, 202, 0.5), rgba(45, 160, 202, 0.5)), url("/assets/img/work=process\ .avif");
 }
 
 .contact-icon {
@@ -34,7 +34,7 @@ iframe {
 .form-input {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background: linear-gradient(0deg,rgba(45, 160, 202, 0.5), rgba(45, 160, 202, 0.5)), url("/assets/img/work=process\ .png");
+    background: linear-gradient(0deg,rgba(45, 160, 202, 0.5), rgba(45, 160, 202, 0.5)), url("/assets/img/work=process\ .avif");
 }
 
 .form-input h3 {
